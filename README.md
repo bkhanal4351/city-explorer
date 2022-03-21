@@ -1,6 +1,6 @@
 # City Explorer 
 
-# Wireframe
+# WRRC ( Web Request Resonse Cycle)
 
 ![](/src/img/wireframe.jpg)
 
