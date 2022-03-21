@@ -2,7 +2,7 @@
 
 # Wireframe
 
-![](/src/img/wireframe.png)
+![](/src/img/wireframe.jpg)
 
 # Getting Started with Create React App
 
