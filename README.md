@@ -1,4 +1,8 @@
-# City Explorer 
+# City Explorer
+
+
+
+**Author**: Bishal Khanal
 
 # WRRC ( Web Request Resonse Cycle)
 
@@ -74,3 +78,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Lab 6
+Name of feature: Asynchronous code, and APIs
+
+Estimate of time needed to complete: 3
+
+Start time: 2:30
+
+Finish time: 7:25
+
+Actual time needed to complete: 3:55
