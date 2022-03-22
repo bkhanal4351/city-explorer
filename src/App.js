@@ -31,8 +31,11 @@ class App extends React.Component {
       this.setState({
         error: true,
         errorMessage: `An error ocured: ${error.response.status}`
+     
       })
+    
     }
+    console.log(this.state.errorMessage);
   };
 
   handleCityInput = (e) => {
@@ -52,10 +55,12 @@ class App extends React.Component {
             <button type="submit">Get city data</button>
           </label>
         </form>
-
+      <form>
         {this.state.cityData.error ? <p>{this.state.errorMessage}</p> : <p>{this.state.cityData.display_name} {this.state.cityData.lat}  {this.state.cityData.lon}</p>}
+        </form>
 
         <img src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${this.state.cityData.lat},${this.state.cityData.lon}&zoom=12`} alt = 'Map'/>
+        
       
       </>
     );
