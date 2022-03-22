@@ -55,7 +55,7 @@ class App extends React.Component {
 
         {this.state.cityData.error ? <p>{this.state.errorMessage}</p> : <p>{this.state.cityData.display_name} {this.state.cityData.lat}  {this.state.cityData.lon}</p>}
 
-        <img src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${this.state.cityData.lat},${this.state.cityData.lon}&zoom14`} alt = 'Map'/>
+        <img src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${this.state.cityData.lat},${this.state.cityData.lon}&zoom=12`} alt = 'Map'/>
       
       </>
     );
