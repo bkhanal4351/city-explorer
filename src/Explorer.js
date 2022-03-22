@@ -68,7 +68,10 @@ class Explorer extends React.Component {
           <Location
             city={this.state.cityData.display_name}
             Latitude={this.state.cityData.lat}
-            Longitude={this.state.cityData.lon} />) : `${this.state.errorMessage}`}
+            Longitude={this.state.cityData.lon} />) :
+             <div>
+             {this.state.errorMessage}
+             </div> }
 
 
 
