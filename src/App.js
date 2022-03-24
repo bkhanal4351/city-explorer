@@ -1,5 +1,6 @@
 import './App.css';
 import Explorer from './Explorer.js'
+
 import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './location.css'
@@ -14,6 +15,7 @@ function App(){
 
      
         <Explorer />
+        
         </div>
        
         );

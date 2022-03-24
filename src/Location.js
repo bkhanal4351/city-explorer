@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
 
+
 class Location extends React.Component {
   constructor(props){
     super(props);
@@ -19,6 +20,7 @@ console.log(this.props.Latitude)
             Longitude: {this.props.Longitude}
           </Card.Text>
           <Card.Img in='locImg' src={map}/>
+          <Card.Title id='weather'>{this.props.weather}</Card.Title>
         
         </Card.Body>
       </Card>
