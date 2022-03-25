@@ -10,7 +10,6 @@ class Location extends React.Component {
 
   render(){
     let map = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${this.props.Latitude},${this.props.Longitude}&zoom=12`
-console.log(this.props.Latitude)
     return(
       <Card id='location'>
         <Card.Body>
