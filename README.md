@@ -7,6 +7,7 @@
 # WRRC ( Web Request Resonse Cycle)
 
 ![](/src/img/wireframe.jpg)
+![](/src/img/WRRC.png)
 
 # Getting Started with Create React App
 
@@ -89,3 +90,14 @@ Start time: 2:30
 Finish time: 7:25
 
 Actual time needed to complete: 3:55
+
+# Lab 7
+Name of feature: Custom Servers with Node and Express
+
+Estimate of time needed to complete: 3
+
+Start time: 3:30
+
+Finish time: 10:30
+
+Actual time needed to complete: 7 hours
