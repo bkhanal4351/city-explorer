@@ -103,4 +103,16 @@ Finish time: 10:30
 
 Actual time needed to complete: 7 hours
 
+# Lab 8
+
+Name of feature: Custom Servers with Node and Express
+
+Estimate of time needed to complete: 34
+
+Start time: 3:30
+
+Finish time: 11:30
+
+Actual time needed to complete: 8 hours
+
 
