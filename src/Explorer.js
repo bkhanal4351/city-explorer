@@ -107,7 +107,7 @@ class Explorer extends React.Component {
             overview={element.overview}
             vote_average={element.vote_average}
             vote_count={element.vote_count}
-            // img={element.img}
+            poster_path={element.poster_path}
             popularity={element.popularity}
             release_date={element.release_date}
             />
