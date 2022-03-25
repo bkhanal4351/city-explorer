@@ -9,7 +9,7 @@ class MovieData extends React.Component {
       <>
         <Card.Body>
           <Card.Header> Movie title:{this.props.title} </Card.Header>
-          {/* <Card.Img src={this.props.img} alt={this.props.title} /> */}
+          <Card.Img src={`https://image.tmdb.org/t/p/original${this.props.poster_path}`} alt="movie image" />
           <Card.Text>
             Movie Overview:{this.props.overview}
           </Card.Text>
